@@ -6,8 +6,6 @@ on:
   pull_request:
     types: [opened, synchronize]
  
-env:
-  TURBO_SCM_BASE: "origin/main"
 jobs:
   build:
     name: Build and Test
